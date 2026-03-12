@@ -1,11 +1,11 @@
-# 🚀 Space Passenger Survival Prediction
+#  Space Passenger Survival Prediction
 
-## 📌 Problem Statement
+##  Problem Statement
 The goal of this project is to predict whether a passenger aboard the **Spaceship Titanic** was transported to another dimension due to a spacetime anomaly. The dataset contains passenger information such as their home planet, destination, age, VIP status, cryosleep status, and spending behavior. Using these features, machine learning models are trained to classify passengers into two categories: **Transported (True)** or **Not Transported (False)**. The objective is to build a model that can accurately predict passenger transportation.
 
 ---
 
-# 📊 Dataset Description
+#  Dataset Description
 
 The dataset used in this project comes from the **Spaceship Titanic Kaggle competition**. It contains information about passengers traveling on the spaceship.
 
@@ -34,7 +34,7 @@ The dataset used in this project comes from the **Spaceship Titanic Kaggle compe
 
 ---
 
-# 🧹 Data Preprocessing
+#  Data Preprocessing
 
 The following preprocessing steps were performed on the dataset:
 
@@ -46,7 +46,7 @@ The following preprocessing steps were performed on the dataset:
 
 ---
 
-# 📏 Evaluation Metrics
+#  Evaluation Metrics
 
 The following evaluation metrics were used to measure model performance.
 
@@ -80,7 +80,7 @@ F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
 
 ---
 
-# 🤖 Implemented Machine Learning Algorithms
+# Implemented Machine Learning Algorithms
 
 ## Random Forest
 Random Forest is an ensemble learning algorithm that builds multiple decision trees and combines their predictions. It reduces overfitting and improves prediction accuracy by averaging the outputs of multiple trees.
@@ -93,7 +93,7 @@ LightGBM is a gradient boosting framework that uses a leaf-wise tree growth stra
 
 ---
 
-# 📈 Model Performance Results
+#  Model Performance Results
 
 | Model | Accuracy |
 |------|------|
@@ -105,7 +105,7 @@ LightGBM achieved the best performance among the tested models.
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 - Python
 - Pandas
@@ -118,7 +118,7 @@ LightGBM achieved the best performance among the tested models.
 
 ---
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 1. Data Loading  
 2. Data Cleaning  
@@ -132,7 +132,7 @@ LightGBM achieved the best performance among the tested models.
 
 ---
 
-# 📂 Output
+#  Output
 
 The final model generates predictions for the test dataset and creates a **submission.csv** file containing:
 
